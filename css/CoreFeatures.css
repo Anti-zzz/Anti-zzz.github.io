@@ -1,0 +1,86 @@
+.wrap1 {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.contactme {
+    padding: 40px 0;
+    background-color: #F3F4F4;
+}
+
+.contactme>h2 {
+    width: 960;
+    margin: auto;
+    text-align: center;
+    font-size: 42px;
+    padding: 20px 0;
+}
+
+.contactleft {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contactleft img {
+    width: 60px;
+    height: 65px;
+    margin: 0 auto;
+    border: 7px solid #eee;
+    margin: 15px 0;
+}
+
+.me {
+    border-radius: 50%;
+}
+
+.contact h4 {
+    font-family: Helvetica, Arial;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.contactleft p {
+    margin-top: 7px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #777;
+    font-family: Helvetica, Arial;
+}
+
+i.mail {
+    margin-right: 5px;
+}
+
+.contactleft ul li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #222;
+    display: block;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 6px;
+}
+
+.contactleft ul li a:hover {
+    background-color: #a6e22c;
+}
+
+.contactleft ul li {
+    float: left;
+    margin: 10px 0;
+}
+
+.contactleft ul {
+    display: table;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .wrap1 {
+        display: flex;
+    }
+}
